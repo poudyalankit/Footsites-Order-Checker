@@ -55,8 +55,8 @@ async function checkOrder(csrfToken, uuid, orderNumber, orderEmail, cookieJar) {
 
 async function sendWebhook(order) {
     var webhookLink = fs.readFileSync("./webhook.txt", 'utf8');
-    let carrier = 'N/A';
-    let tracking = 'N/A';
+    let carrier = 'N/A'
+    let tracking = 'N/A'
     let shipping2 = 'N/A'
     let billing2 = 'N/A'
     if (order.shipAddresses[0].street2.length > 0) {
