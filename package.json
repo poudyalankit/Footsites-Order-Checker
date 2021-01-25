@@ -1,0 +1,14 @@
+{
+    "name": "FootsiteOrderChecker",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "uuid": "^8.3.2",
+        "tough-cookie": "^4.0.0",
+        "axios-cookiejar-support": "^1.0.1"
+    }
+}
